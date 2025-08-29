@@ -4,16 +4,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9fafb; 
 }
 
 /* Reusable Component Styles */
 .card {
-  background-color: white;
+  background-color: rgb(138, 119, 160);
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   border-radius: 0.5rem; 
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  opacity: 0.9;
 }
 
 .input-field {
@@ -48,8 +48,9 @@ body {
 }
 
 .link {
-  color: #2563eb;
+  color: #001e5f;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .link:hover {
@@ -58,7 +59,8 @@ body {
 
 /* navigation*/
 .navbar {
-  background-color: #2563eb;
+  background-color: hsl(220, 6%, 10%);
+  opacity: 0.95;
   padding: 0 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -108,6 +110,7 @@ body {
   white-space: pre-wrap;
   line-height: 1.6;
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 /* like button */

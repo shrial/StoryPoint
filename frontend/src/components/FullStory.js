@@ -40,8 +40,8 @@ const FullStory = ({ user }) => {
     return (
         <div className="container">
             <div className="card">
-                <h1 style={{fontSize: '2.25rem', fontWeight: 'bold', marginBottom: '1rem'}}>{story.title}</h1>
-                <p style={{color: '#4b5563', marginBottom: '1.5rem'}}>by {story.author?.username || 'Anonymous'}</p>
+                <h1 style={{color: '#110068ff',fontSize: '2.25rem', fontWeight: 'bold', marginBottom: '1rem'}}>{story.title}</h1>
+                <p style={{color: '#ffffffff', marginBottom: '1.5rem',fontWeight:'bold'}}>by {story.author?.username || 'Anonymous'}</p>
                 <div className="story-content">
                     {story.content}
                 </div>

@@ -6,9 +6,9 @@ const StoryCard = ({ story }) => {
 
     return (
         <div className="card">
-            <h2 style={{fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.5rem'}}>{story.title}</h2>
-            <p style={{color: '#4b5563', marginBottom: '1rem'}}>by {story.author?.username || 'Anonymous'}</p>
-            <p style={{color: '#1f2937', marginBottom: '1rem'}}>{snippet}</p>
+            <h2 style={{color: '#110068ff',fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.5rem'}}>{story.title}</h2>
+            <p style={{color: '#ffffffff', marginBottom: '1rem', fontWeight: 500,fontSize: '1.1rem'}}>by {story.author?.username || 'Anonymous'}</p>
+            <p style={{color: '#000000ff', marginBottom: '1rem',fontWeight:'500'}}>{snippet}</p>
             <Link to={`/stories/${story._id}`} className="link">
                 Read More &rarr;
             </Link>

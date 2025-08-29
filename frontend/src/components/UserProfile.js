@@ -38,7 +38,7 @@ const UserProfile = () => {
 
     return (
         <div className="container">
-            <h1 style={{fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem'}}>{username}'s Stories</h1>
+            <h1 style={{color:'white', fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem'}}>{username}'s Stories</h1>
             {userStories.length > 0 ? (
                 userStories.map(story => <StoryCard key={story._id} story={story} />)
             ) : (

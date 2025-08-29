@@ -21,12 +21,12 @@ const Home = () => {
         fetchStories();
     }, []);
 
-    if (loading) return <p style={{textAlign: 'center', marginTop: '2rem'}}>Loading stories...</p>;
+    if (loading) return <p style={{textAlign: 'center', marginTop: '2rem',color:'rgb(255,255,255)'}}>Loading stories...</p>;
     if (error) return <p style={{textAlign: 'center', color: 'red', marginTop: '2rem'}}>{error}</p>;
 
     return (
         <div className="container">
-            <h1 style={{textAlign: 'center', marginBottom: '1.5rem', fontSize: '2rem', fontWeight: 'bold'}}>Latest Stories</h1>
+            <h1 style={{ marginBottom: '1.5rem', fontSize: '2rem', fontWeight: 'bold',color:'rgb(255,255,255)'}}>Latest Stories</h1>
             {stories.length > 0 ? (
                 stories.map(story => <StoryCard key={story._id} story={story} />)
             ) : (
