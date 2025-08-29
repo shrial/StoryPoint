@@ -28,7 +28,8 @@ Backend :
 - JWT -> Implements JSON Web Tokens for secure user authentication and authorization.
 - Bcrypt.js -> A library used to hash user passwords for secure storage.
 <br>
-Database: Mongoose - An Object Data Modeling (ODM) library used to interact with MongoDB. 
+Database: Mongoose - An Object Data Modeling (ODM) library used to interact with MongoDB.
+
 ## API endpoints:
 The backend provides a RESTful API with many endpoints to: 
 - Register a new user
