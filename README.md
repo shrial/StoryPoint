@@ -41,3 +41,5 @@ The backend provides a RESTful API with many endpoints to:
 - Post comments
 <br>
 Protected routes require a valid x-auth-token in the header.
+<br>
+Note to self: to test the api endpoints, I used hoppscotch instead of generally used Postman. Both are almost same just that hopscoth is web based :)
