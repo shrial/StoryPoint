@@ -11,7 +11,7 @@ Public users and Logged-in users can access differently with writers/Logged-in u
 - Read any story(complete) on a dedicated page.
 - View comments left by other users.
 - Register for a new account.
-<br>
+
 **Authenticated Users (Logged-in users/Writers) can:**
 - Log in and log out securely using JWT authentication.
 - Create new stories via a protected route.
